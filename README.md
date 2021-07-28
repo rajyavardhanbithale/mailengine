@@ -42,7 +42,7 @@ Send Rich Text Mail. Use HTML only
 
 ## Usage :
 
-####For Generating Script Use: 
+#### For Generating Script Use: 
 
     from mailengine import sendmail
     
