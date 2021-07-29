@@ -1,0 +1,15 @@
+from mailengine import sendmail
+
+
+port = 587 
+send_mail= "sender email"
+receive_mail = "receiver email"
+password = "password"
+server = "smtp.gmail.com" #server
+
+message = """\
+Subject: Subject
+
+This mail was sent using mailengine (python) https://github.com/rajyavardhanbithale/mailengine. Add your content here, this tool can send mail and OTP 
+"""
+sendmail.mail(port,server,send_mail,receive_mail,password,message)
